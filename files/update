@@ -27,7 +27,3 @@ else
     git clean -fd
 fi
 
-if [ -f Gemfile ]; then
-    rm -f Gemfile.lock
-    bundle install --path vendor/bundle
-fi
